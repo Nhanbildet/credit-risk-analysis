@@ -27,5 +27,6 @@ Création d’un tableau de bord Power BI pour :
 - Visualiser la distribution du risque
 - Analyser les segments de clients
 
-## Outils
-SQL, Python, Power BI
+## Outil
+SQL, Python, Power BI, Microsoft Fabric
+
