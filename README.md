@@ -1,32 +1,61 @@
-# Analyse du risque de crédit
+# 📊 Analyse du risque de crédit – Microsoft Fabric
 
-## Problème métier
-Analyser les données de prêts pour identifier les clients avec un risque élevé de défaut et aider à la prise de décision.
+📌 Ce projet a pour objectif d’analyser le risque de défaut afin d’identifier les profils clients à risque et d’améliorer la prise de décision dans l’octroi de crédit.
+Le dataset contient 33 000 prêts provenant du Royaume-Uni, du Canada et des États-Unis, avec des montants allant jusqu’à 35 000 USD.
 
-## Données
-Dataset de prêts contenant :
-- Revenu des clients
-- Montant du prêt
-- Taux d’intérêt
-- Type de prêt
-- Statut de défaut
+🎯 Problématique métier: Dans un contexte bancaire, la maîtrise du risque de défaut est essentielle pour garantir la rentabilité et la stabilité du portefeuille.Les principales questions :
 
-## Analyse
-- Analyse du ratio dette / revenu
-- Impact du taux d’intérêt sur le défaut
-- Segmentation des clients selon le niveau de risque
+    - Le pays influence-t-il le risque de défaut ?
+    
+    - Quels types de prêts sont les plus risqués ?
+    
+    - Quels profils clients présentent un risque élevé ?
 
-## Résultats clés
-- Un taux d’intérêt élevé (> 11 %) est associé à un risque plus élevé de défaut
-- Un ratio dette / revenu élevé indique une situation financière fragile
-- Les petits prêts avec taux élevé présentent un risque important
+⚙️ Technologies utilisées: Microsoft Fabric, Lakehouse, Data Warehouse, Dataflows Gen2, SQL, Python, Power BI
 
-## Dashboard
-Création d’un tableau de bord Power BI pour :
-- Suivre le taux de défaut
-- Visualiser la distribution du risque
-- Analyser les segments de clients
+🏗️ Architecture de données
 
-## Outil
-SQL, Python, Power BI, Microsoft Fabric
+Le projet suit une architecture de type Medallion :
 
+    - Bronze (Ingestion): Collecte et stockage des données brutes dans le Lakehouse
+    
+    - Silver (Transformation): Nettoyage et transformation des données avec Dataflows Gen2
+    
+    - Gold (Serving): Modélisation dans le Data Warehouse (schéma en étoile)
+    
+    - Visualisation: Dashboard interactif dans Power BI
+
+📊 Principaux insights
+
+    - Le pays n’est pas un facteur déterminant du risque
+    
+    - Les prêts Conso dettes et Médical sont les plus risqués
+    
+    - Les clients avec des grades D à G présentent un risque élevé
+    
+ Le risque augmente lorsque :
+    
+    - Taux d’intérêt > 11%
+    
+    - Montant du prêt < 8K
+    
+    - Ratio dette/revenu > 33%
+    
+    - Revenu < 55K
+    
+👉 Le risque est encore plus élevé lorsque ces facteurs sont combinés
+
+📈 Dashboard: Le dashboard Power BI permet :
+
+    - Une vue globale des KPI (taux de défaut, volume de prêts, taux moyen)
+    
+    - Une segmentation du risque par type de prêt et classe de crédit
+    
+    - Une analyse des facteurs (revenu, ratio d’endettement)
+    
+    - Une interaction via des filtres (pays, type de prêt, classe)
+
+👩‍💻 Auteur
+
+Nhan Bildet
+Data Analyst
