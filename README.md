@@ -28,4 +28,4 @@ Interactive Power BI dashboard to monitor:
 - Customer segments
 
 ## Tools
-SQL, Python, Power BI
+SQL, Python, Power BI, Microsoft Fabric
