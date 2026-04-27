@@ -1,31 +1,31 @@
-# Credit Risk Analysis
+# Analyse du risque de crédit
 
-## Business Problem
-Analyze loan data to identify clients with high risk of default and support better decision-making.
+## Problème métier
+Analyser les données de prêts pour identifier les clients avec un risque élevé de défaut et aider à la prise de décision.
 
-## Data
-Loan dataset including:
-- Income
-- Loan amount
-- Interest rate
-- Loan purpose
-- Default status
+## Données
+Dataset de prêts contenant :
+- Revenu des clients
+- Montant du prêt
+- Taux d’intérêt
+- Type de prêt
+- Statut de défaut
 
-## Analysis
-- Debt-to-income ratio analysis
-- Impact of interest rate on default
-- Risk segmentation by customer profile
+## Analyse
+- Analyse du ratio dette / revenu
+- Impact du taux d’intérêt sur le défaut
+- Segmentation des clients selon le niveau de risque
 
-## Key Insights
-- High interest rate (>11%) is strongly linked to higher default risk
-- High debt-to-income ratio indicates financial stress
-- Small loans with high interest rate show higher risk
+## Résultats clés
+- Un taux d’intérêt élevé (> 11 %) est associé à un risque plus élevé de défaut
+- Un ratio dette / revenu élevé indique une situation financière fragile
+- Les petits prêts avec taux élevé présentent un risque important
 
 ## Dashboard
-Interactive Power BI dashboard to monitor:
-- Default rate
-- Risk distribution
-- Customer segments
+Création d’un tableau de bord Power BI pour :
+- Suivre le taux de défaut
+- Visualiser la distribution du risque
+- Analyser les segments de clients
 
-## Tools
-SQL, Python, Power BI, Microsoft Fabric
+## Outils
+SQL, Python, Power BI
