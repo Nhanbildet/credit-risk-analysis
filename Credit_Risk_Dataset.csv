@@ -1,0 +1,35 @@
+Column Name;Description;;
+client_ID;Unique identifier for each client;Identifiant unique du client;ID Client
+person_age;Age of the applicant (years);Âge du demandeu;Âge du demandeu
+person_income;Annual income of the applicant (USD);Revenu annuel;Revenu annuel
+person_home_ownership;Home ownership status (RENT/OWN/MORTGAGE);tatut de logement;Statut de logement
+person_emp_length;Employment length (years);Ancienneté professionnelle;Ancienneté professionnelle
+loan_intent;Purpose of the loan (PERSONAL, MEDICAL, EDUCATION, etc.);Objet du prêt;Type de prêt
+loan_grade;Credit grade assigned to the loan (A–G);Classe de crédit (A–G);Classe de crédit (A–G)
+loan_amnt;Requested loan amount (USD);Montant du prêt;Montant du prêt
+loan_int_rate;Loan interest rate (%);Taux d’intérêt;Taux (%)
+loan_status;Loan repayment status (0 = non-default, 1 = default);Statut de remboursement;Défaut
+loan_percent_income;Percentage of income allocated to loan repayment;Part du revenu consacrée au prêt;% revenu utilisé
+cb_person_default_on_file;Whether applicant has defaulted previously (Y/N);Antécédent de défaut;Antécédent de défaut
+cb_person_cred_hist_length;Length of credit history (years);Durée historique de crédit;Ancienneté crédit
+gender;Gender of applicant (Male/Female);Genre;Genre
+marital_status;Marital status (Single/Married/Divorced/Widowed);Situation matrimoniale;Situation matrimoniale
+education_level;Education level (High School/Bachelor/Master/PhD);Niveau d’éducation;Niveau d’études
+country;Country of residence;Pays;Pays
+state;State/Province of residence;Région / Province;Région
+city;City of residence;Ville;Ville
+city_latitude;Latitude coordinate of the city;Latitude;Latitude
+city_longitude;Longitude coordinate of the city;Longitude;Longitude
+employment_type;Employment type (Full-time/Part-time/Self-employed/Unemployed);Type d’emploi;Type d’emploi
+loan_term_months;Loan term in months (12, 24, 36, 60);Durée du prêt (mois);Durée du prêt (mois)
+loan_to_income_ratio;Loan amount divided by applicant income;Ratio prêt/revenu;Ratio prêt/revenu
+other_debt;Simulated additional debt held by applicant (USD);Autres dettes;Autres dettes
+debt_to_income_ratio;Total debt obligations divided by applicant income;Ratio dette/revenu;Ratio dette/revenu (DTI)
+open_accounts;Number of open credit accounts;Nombre de comptes ouverts;Nombre de comptes ouverts
+credit_utilization_ratio;Credit utilization ratio (0–1);Taux d’utilisation du crédit;Utilisation crédit (%)
+past_delinquencies;Number of past delinquencies/late payments;Nombre de retards de paiement;Nombre de retards de paiement
+;Default Rate;Taux de défaut;Taux de défaut
+;Total Loan Amount;Montant total des prêts;Montant total
+;Total Loss;Perte totale;Perte totale
+;Average Interest Rate;Taux moyen;Taux moyen
+;Taux moyen (%);Number of Loans;Nombre de prêts
